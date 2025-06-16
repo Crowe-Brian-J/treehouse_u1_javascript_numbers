@@ -8,7 +8,7 @@ const hoursPerDay = 24
 const daysPerYear = 365
 
 //lesson constants
-const age = prompt('How old are you?')
+const age = Number(prompt('How old are you?'))
 const main = document.querySelector('main')
 const addLeapYears = Math.floor(age / 4)
 
